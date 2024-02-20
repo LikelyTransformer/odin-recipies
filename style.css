@@ -1,0 +1,38 @@
+* {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    background-color: white;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(30, 30, 30);
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+img {
+    height: 350px;
+    width: auto;
+}
+
+ul.navigation li a{
+    font-size: 24px;
+    font-weight: 700px;
+}
