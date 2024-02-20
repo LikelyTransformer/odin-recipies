@@ -17,6 +17,7 @@ h1.header {
     background-color: rgb(185, 177, 153);
     margin: 0 0;
     padding-top: 16px;
+    text-decoration: none;
 }
 
 div.navbar {
@@ -32,4 +33,33 @@ div.navbar a {
     display: inline-block;
     border: solid 2px black;
     border-radius: 4px;
+}
+
+h1, h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    padding: 0 2em;
+}
+
+p {
+    padding: 0 2em;
+}
+
+p.desc {
+    text-align: justify;
+}
+
+ul, ol {
+    padding: 0 1em;
+    margin: 2em;
+}
+
+img {
+    display: flex;
+    margin: 0 auto;
+    height: 300px;
+    width: auto;
 }
