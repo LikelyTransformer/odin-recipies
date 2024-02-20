@@ -1,38 +1,35 @@
-* {
+html {
     font-family: Verdana, sans-serif;
     font-size: 16px;
     text-align: left;
     color: black;
-    background-color: white;
+    background-color: rgb(255, 246, 220);
+    margin: 0 0;
+    padding: 0 0;
 }
 
-h1 {
-    font-size: 36px;
+body {
+    margin: 0 0;
 }
 
-h2 {
-    font-size: 24px;
+h1.header {
+    text-align: center;
+    background-color: rgb(185, 177, 153);
+    margin: 0 0;
+    padding-top: 16px;
 }
 
-h3 {
-    font-size: 18px;
-    color: rgb(30, 30, 30);
+div.navbar {
+    text-align: center;
+    background-color: rgb(185, 177, 153);
+    padding: 16px;
 }
 
-a {
-    color: blue;
-}
-
-a:visited {
-    color: purple;
-}
-
-img {
-    height: 350px;
-    width: auto;
-}
-
-ul.navigation li a{
-    font-size: 24px;
-    font-weight: 700px;
+div.navbar a {
+    font-size: 1.5em;
+    margin: 0 8px;
+    padding: 8px;
+    display: inline-block;
+    border: solid 2px black;
+    border-radius: 4px;
 }
